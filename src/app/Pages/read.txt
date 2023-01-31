@@ -1,0 +1,44 @@
+Inside the pages directory we have to create the pages for the users. 
+
+ 
+├── src
+│   ├── app
+│   │   ├ 
+│   │   │── components
+│   │   │   ├── register
+│   │   │   │   ├── register.component.ts 
+│   │   │   │   ├── register.component.html
+│   │   │   │   ├── register.component.css
+│   │   │   │   ├── index.ts
+│   │   │   ├── login
+│   │   │   │   ├── login.component.ts
+│   │   │   │   ├── login.component.html
+│   │   │   │   ├── login.component.css
+│   │   │   │   ├── index.ts
+│   │   │── core
+│   │   │   ├── services
+│   │   │   │   ├── first.service.ts
+│   │   │   │   ├── another.service.ts
+│   │   │   ├── guards
+│   │   │   │   ├── first.guard.ts
+│   │   │   │   ├── another.guard.ts
+│   │   │   ├── interceptors
+│   │   │   │   ├── first.interceptor.ts
+│   │   │   │   ├── another.interceptor.ts
+│   │   │   ├── models
+│   │   │   │   ├── first.model.ts
+│   │   │   │   ├── another.model.ts
+│   │   │── pages
+│   │   │   ├── dashboard
+│   │   │   │   ├── dashboard.component.ts
+│   │   │   ├── rights
+│   │   │   │   ├── rights.component.ts
+│   │   │   ├── user
+│   │   │   │   ├── user.component.ts
+│   │   │   ├── admin.component.ts
+│   │   │   ├── admin.component.html
+│   │   │   ├── admin.component.css
+│   │   │   ├── index.ts
+│   │   │── pipes
+│   │   │   ├── first.pipe.ts
+│   │   │   ├── another.pipe.ts
